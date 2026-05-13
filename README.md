@@ -2,13 +2,17 @@
 
 This repository contains the data preprocessing pipeline for the Multimodal-Wireless dataset, targeting beam prediction tasks. The model implementation code will be open-sourced in the coming months.
 
+## 0. Codes and Checkpoints
+
+Users should download the .zip file in the **Latest Release**.
+
 ## 1. Environment Setup
 
 First, please create and activate a new virtual environment with Python 3.8:
 
 ```bash
-conda create -n beam_pred python=3.8
-conda activate beam_pred
+conda create -n preprocessor python=3.8
+conda activate preprocessor
 ```
 
 Next, install the required base dependencies using the provided requirements.txt:
@@ -16,7 +20,7 @@ Next, install the required base dependencies using the provided requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-OpenCOOD Configuration: This project relies on opencood for multimodal data
+**OpenCOOD Configuration:** This project relies on opencood for multimodal data
 processing. Please note that you need to use the customized opencood source code
 from the where2comm repository and have it available locally.
 
